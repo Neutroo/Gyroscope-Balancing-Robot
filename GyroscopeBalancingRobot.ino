@@ -14,7 +14,6 @@ float gx, gx0, gy, gz;                          // значения углово
 float angle_gx, angle_gx0, angle_gy, angle_gz;  // углы, рассчитанные по гироскопу
 float gyro_x_zero, gyro_y_zero, gyro_z_zero;    // калибровочные углы смещения нуля гироскопа
 
-//Motor driver pins
 #define ENA       3
 #define ABack     5
 #define AForward  7
