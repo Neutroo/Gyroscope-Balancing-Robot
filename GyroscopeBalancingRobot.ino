@@ -24,8 +24,6 @@ float gyro_x_zero, gyro_y_zero, gyro_z_zero;    // калибровочные у
 
 void setup() 
 {
-  Serial.begin(9600);
-  
   pinMode(ENA, OUTPUT);
   pinMode(ABack, OUTPUT);
   pinMode(AForward, OUTPUT);
