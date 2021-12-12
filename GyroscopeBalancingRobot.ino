@@ -65,7 +65,6 @@ void loop()
     mpu.getMotion6(&ax_raw, &ay_raw, &az_raw, &gx_raw, &gy_raw, &gz_raw);
     get_angle_gyro();
 
-    Serial.println(angle_gz);
     if (angle_gz > 1)
     { 
       while (angle_gz > 0)
